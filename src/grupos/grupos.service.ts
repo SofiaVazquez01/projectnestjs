@@ -5,8 +5,6 @@ import { Grupo } from './entities/grupo.entity';
 import { CreateGrupoDto } from './dto/create-grupo.dto';
 import { UpdateGrupoDto } from './dto/update-grupo.dto';
 import { GlobalConfig } from 'config/Global_Config';
-// import { ConfigService } from '@nestjs/config';
-
 
 @Injectable()
 export class GruposService {

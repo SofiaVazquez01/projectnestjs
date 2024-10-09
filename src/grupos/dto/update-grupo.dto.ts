@@ -8,4 +8,5 @@ export class UpdateGrupoDto {
   @IsOptional()
   @IsNumber()
   grupo_necesario?: number;
+  
 }

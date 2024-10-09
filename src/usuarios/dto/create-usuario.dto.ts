@@ -38,5 +38,4 @@ export class CreateUsuarioDto {
     @IsOptional()
     usuario_id:number;
 
- 
 }

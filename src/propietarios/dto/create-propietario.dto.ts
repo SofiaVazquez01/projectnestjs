@@ -15,4 +15,5 @@ export class CreatePropietarioDto {
 
     @IsString()
     nombre: string;
+    
 }

@@ -11,4 +11,5 @@ export class UpdateSistemasGrupoDto extends PartialType(CreateSistemasGrupoDto) 
     @IsInt()
     @IsOptional()
     grupos_id?: number;
+    
 }

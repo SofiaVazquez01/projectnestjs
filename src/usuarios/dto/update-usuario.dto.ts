@@ -13,4 +13,5 @@ export class UpdateUsuarioDto extends PartialType(CreateUsuarioDto) {
     sistema_id?: number;
     propietario_id?: number;
     estatus_id?: number;
+    
 }

@@ -30,4 +30,5 @@ export class Grupo {
 
     @OneToMany(()=> SistemasGrupo,sistemasGrupo => sistemasGrupo.sistema)
      sistemasGrupos: SistemasGrupo[];
+     
 }

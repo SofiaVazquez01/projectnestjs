@@ -12,4 +12,5 @@ export class UpdateSistemaDto extends PartialType(CreateSistemaDto) {
 
     @IsOptional()
     estatus?: string;
+    
 }

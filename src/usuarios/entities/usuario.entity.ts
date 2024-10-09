@@ -1,7 +1,6 @@
 import { UsuariosGrupo } from './../../usuarios-grupos/entities/usuarios-grupo.entity';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm"   
 
-
 @Entity({name:'usuarios',schema:'usuarios'})
 export class Usuario {
     @PrimaryGeneratedColumn()

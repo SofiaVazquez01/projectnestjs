@@ -6,7 +6,6 @@ import { UsuariosGrupo } from './entities/usuarios-grupo.entity';
 import { UsuariosModule } from 'src/usuarios/usuarios.module';
 import { GruposModule } from 'src/grupos/grupos.module';
 
-
 @Module({
   imports:[TypeOrmModule.forFeature([UsuariosGrupo]),UsuariosModule,GruposModule
 ],

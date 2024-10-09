@@ -31,4 +31,5 @@ export class PropietariosController {
   remove(@Param('id') id: string) {
     return this.propietariosService.remove(+id);
   }
+  
 }

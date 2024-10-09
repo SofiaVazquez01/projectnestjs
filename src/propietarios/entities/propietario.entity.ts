@@ -1,6 +1,5 @@
 import {Entity, Column, JoinColumn, PrimaryGeneratedColumn, ManyToOne} from 'typeorm';
 
-
 @Entity({schema: 'propietarios', name: 'propietarios'})
 export class Propietarios{
 

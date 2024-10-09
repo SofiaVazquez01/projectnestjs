@@ -31,4 +31,5 @@ export class SistemasGruposController {
   remove(@Param('id') id: string) {
     return this.sistemasGruposService.remove(+id);
   }
+  
 }

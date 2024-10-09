@@ -9,6 +9,5 @@ export class UpdatePropietarioDto extends PartialType(CreatePropietarioDto) {
     correo_propietario ?: string;
     nombre ?: string;
     
-                                                                                                        
-
+                                                
 }

@@ -8,6 +8,7 @@ export const encryptBcrypt = (password: string): string => {
     return hash;
 };
 
+
 export const compareSync = (password:string, hashPassword:string)=>{
     return bcrypt.compareSync(password, hashPassword);
 }

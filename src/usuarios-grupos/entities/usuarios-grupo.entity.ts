@@ -2,7 +2,6 @@ import { Column, Entity, JoinColumn, ManyToOne, OneToOne, PrimaryGeneratedColumn
 import { Usuario } from '../../usuarios/entities/usuario.entity';
 import { Grupo } from 'src/grupos/entities/grupo.entity';
 
-
 @Entity({name:'usuarios_grupos',schema:'usuarios'})
 export class UsuariosGrupo {
     @PrimaryGeneratedColumn()

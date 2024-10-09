@@ -6,8 +6,6 @@ import { Propietarios } from './entities/propietario.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { GlobalConfig } from 'config/Global_Config';
 
-
-
 @Injectable()
 export class PropietariosService {
 

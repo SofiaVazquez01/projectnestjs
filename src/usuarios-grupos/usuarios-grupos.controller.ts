@@ -36,4 +36,5 @@ export class UsuariosGruposController {
   remove(@Param('id') id: string) {
     return this.usuariosGruposService.remove(+id);
   }
+  
 }

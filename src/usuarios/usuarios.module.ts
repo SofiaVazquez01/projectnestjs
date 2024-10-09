@@ -11,4 +11,5 @@ import { UsuariosGrupo } from 'src/usuarios-grupos/entities/usuarios-grupo.entit
   providers: [UsuariosService],
   exports:[TypeOrmModule]
 })
+
 export class UsuariosModule {}

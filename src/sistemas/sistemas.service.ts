@@ -4,7 +4,7 @@ import { CreateSistemaDto } from './dto/create-sistema.dto';
 import { UpdateSistemaDto } from './dto/update-sistema.dto';
 import { Sistema } from './entities/sistema.entity';
 import { Repository } from 'typeorm';
-// import { ConfigService } from '@nestjs/config';
+
 import { GlobalConfig } from 'config/Global_Config';
 
 @Injectable()

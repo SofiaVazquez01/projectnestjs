@@ -12,4 +12,5 @@ import { GruposModule } from 'src/grupos/grupos.module';
   providers: [SistemasGruposService],
   exports:[SistemasGruposService]
 })
+
 export class SistemasGruposModule {}

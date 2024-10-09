@@ -13,4 +13,5 @@ import { SistemasGrupo } from 'src/sistemas-grupos/entities/sistemas-grupo.entit
   providers: [GruposService],
   exports:[TypeOrmModule]
 })
+
 export class GruposModule {}

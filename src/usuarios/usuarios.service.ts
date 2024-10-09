@@ -54,7 +54,7 @@ export class UsuariosService {
         throw new HttpException(`El estatus "Activo" no esta definido en las confirguracions`,HttpStatus.BAD_REQUEST);
       }
 
-      // return 'This action adds a new usuario';
+ 
     } catch (error) {
       throw new HttpException(`Error al crear usuario:${error.message}`,HttpStatus.INTERNAL_SERVER_ERROR);
     }

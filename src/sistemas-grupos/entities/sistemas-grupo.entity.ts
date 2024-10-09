@@ -20,4 +20,5 @@ export class SistemasGrupo {
     @ManyToOne(() => Grupo, grupo =>grupo.sistemasGrupos)
    @JoinColumn({name:'grupos_id'})
    grupo:Grupo;
+   
 }

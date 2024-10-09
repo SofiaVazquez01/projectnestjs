@@ -7,7 +7,7 @@ export class UpdateUsuariosGrupoDto extends PartialType(CreateUsuariosGrupoDto) 
     @IsOptional()
     usuarios_id:number;
 
-    
+
     @IsInt()
     @IsOptional()
     grupos_id:number;

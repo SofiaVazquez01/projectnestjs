@@ -71,4 +71,5 @@ export class UsuariosController {
       throw new HttpException('Error eliminando al usuario',HttpStatus.INTERNAL_SERVER_ERROR);
     }
   }
+  
 }

@@ -7,8 +7,6 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { UsuariosGrupo } from './entities/usuarios-grupo.entity';
 import { Grupo } from 'src/grupos/entities/grupo.entity';
 
-
-
 @Injectable()
 export class UsuariosGruposService {
   constructor(

@@ -6,4 +6,5 @@ export class CreateSistemasGrupoDto {
     
     @IsInt()
     grupos_id:number;
+    
 }

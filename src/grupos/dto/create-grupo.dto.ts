@@ -7,4 +7,5 @@ export class CreateGrupoDto {
   @IsOptional()
   @IsNumber()
   grupo_necesario?: number;
+  
 }
