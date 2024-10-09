@@ -1,8 +1,11 @@
-import { Column, Entity, JoinColumn, OneToMany, OneToOne, PrimaryGeneratedColumn } from "typeorm"   
+import { UsuariosGrupo } from './../../usuarios-grupos/entities/usuarios-grupo.entity';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm"   
+
+
 @Entity({name:'usuarios',schema:'usuarios'})
 export class Usuario {
     @PrimaryGeneratedColumn()
-    id:number;
+    usuario_id:number;
 
     @Column({unique: true})
     nombre:string;
@@ -13,8 +16,8 @@ export class Usuario {
     @Column({type:'character varying'})
     correo:string;
 
-    @Column({type:'boolean'})
-    estatus:boolean;
+    @Column({type:'character varying'})
+    estatus:string;
 
     @Column({type:'integer'})
     estacion_id:number;
@@ -35,5 +38,9 @@ export class Usuario {
     created_at:Date;
 
     @Column({type:'timestamp without time zone'})
-    updated_at:Date; 
+    updated_at:Date;
+
+    @OneToMany(() => UsuariosGrupo, usuariosGrupo => usuariosGrupo.usuario) 
+    usuariosGrupos: UsuariosGrupo[];
+   
 }
